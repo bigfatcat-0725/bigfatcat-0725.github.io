@@ -25,7 +25,7 @@
       </urlset>`.trim(),
 		{
 			headers: {
-				'Content-Type': 'application/xml'
+				'Content-Type': 'text/xml; charset=utf-8'
 			}
 		}
 	);
