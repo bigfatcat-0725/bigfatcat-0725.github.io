@@ -87,6 +87,11 @@
 	}
 </script>
 
+<svelte:head>
+	<title>간단한 1RM 계산기</title>
+	<meta name="description" content="간단하게 1RM을 계산해보세요." />
+</svelte:head>
+
 <div id="frame">
 	<div id="contents">
 		<h1>간단한 1RM 계산기</h1>
