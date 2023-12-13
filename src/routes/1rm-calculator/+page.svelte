@@ -163,7 +163,7 @@
 </div>
 
 <style>
-	@import '/static/reset.css';
+	@import 'static/reset.css';
 
 	#frame {
 		margin: auto;
