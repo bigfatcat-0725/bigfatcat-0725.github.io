@@ -23,39 +23,28 @@
 		<meta name="theme-color" content="#000000">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link href="./_app/immutable/assets/2.86e2bb25.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.c9b7505a.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.b95eede2.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.7c37c36c.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.7201433f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.b7253810.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.b0ca27be.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.aee3650d.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.c9b7505a.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.b95eede2.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.7c37c36c.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.7201433f.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.b7253810.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <div id="frame" class="svelte-iyxqqh" data-svelte-h="svelte-16jpsx9"><h1 class="svelte-iyxqqh">환영합니다.</h1> <h2 class="svelte-iyxqqh">필요한 이것저것을 제공중입니다.</h2> <ul><a href="/1rm-calculator"><li class="svelte-iyxqqh">1RM 계산기</li></a></ul> </div> 
-			
+		<div style="display: contents">
 			<script>
 				{
 					__sveltekit_lkjql1 = {
-						base: new URL(".", location).pathname.slice(0, -1),
+						base: "",
 						env: {}
 					};
 
 					const element = document.currentScript.parentElement;
 
-					const data = [null,null];
-
 					Promise.all([
-						import("./_app/immutable/entry/start.c9b7505a.js"),
-						import("./_app/immutable/entry/app.7201433f.js")
+						import("/_app/immutable/entry/start.c9b7505a.js"),
+						import("/_app/immutable/entry/app.7201433f.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data,
-							form: null,
-							error: null
-						});
+						kit.start(app, element);
 					});
 				}
 			</script>
