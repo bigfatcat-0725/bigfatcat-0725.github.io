@@ -1,8 +1,12 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <div id="frame">
 	<h1>환영합니다.</h1>
 	<h2>필요한 이것저것을 제공중입니다.</h2>
 	<ul>
-		<a href="1rm-calculator"><li>1RM 계산기</li></a>
+		<a href="{base}/1rm-calculator"><li>1RM 계산기</li></a>
 	</ul>
 </div>
 
