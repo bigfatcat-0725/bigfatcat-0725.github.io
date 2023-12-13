@@ -1,4 +1,12 @@
 <script>
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		if (location.pathname.endsWith('/')) {
+			history.replaceState({}, document.title, location.pathname.slice(0, -1));
+		}
+	});
+
 	let category = 'squat';
 	let inputKg = '';
 	let count = '1';
