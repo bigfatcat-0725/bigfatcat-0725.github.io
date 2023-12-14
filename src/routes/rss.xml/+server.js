@@ -25,5 +25,5 @@ export const GET = () => {
 
   
 
-    return new Response(feed.rss2(), { headers: { 'Content-Type': 'text/xml; charset=utf-8' } })
+    return new Response(feed.rss2(), { headers: { 'Content-Type': 'application/xml; charset=utf-8' } })
 }
